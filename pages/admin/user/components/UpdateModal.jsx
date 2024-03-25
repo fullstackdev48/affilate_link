@@ -6,7 +6,7 @@ import { useRef } from "react";
 import DatePicker, { DateObject } from "react-multi-date-picker";
 
 import "react-datepicker/dist/react-datepicker.css";
-import { update_me } from "../../services/auth";
+import { update_me } from "../../../../services/auth";
 import { registerLocale } from "react-datepicker";
 import enUS from "date-fns/locale/en-US";
 registerLocale("en-US", enUS);

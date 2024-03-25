@@ -4,11 +4,11 @@ import Seo from "../components/common/Seo";
 // import DefaultHeader from "../components/header/default-header";
 import DefaultHeader from "../components/header/header-6";
 import DefaultFooter from "../components/footer/footer-6";
-import WhyChoose from "../components/block/BlockGuide";
-import Address from "../components/block/Address";
+import WhyChoose from "../components/home/home-2/BlockGuide";
+// import Address from "../components/block/Address";
 import Social from "../components/common/social/Social";
 import ContactForm from "../components/common/ContactForm";
-import LocationTopBar from "../components/common/LocationTopBar";
+// import LocationTopBar from "../components/common/LocationTopBar";
 
 const Contact = () => {
   return (
@@ -22,7 +22,7 @@ const Contact = () => {
       <DefaultHeader />
       {/* End Header 1 */}
 
-      <LocationTopBar />
+      {/* <LocationTopBar /> */}
       {/* End location top bar section */}
 
       <div className="map-outer">
@@ -55,7 +55,7 @@ const Contact = () => {
             </div>
             {/* End .col */}
 
-            <Address />
+            {/* <Address /> */}
             {/* End address com */}
 
             <div className="col-auto">
