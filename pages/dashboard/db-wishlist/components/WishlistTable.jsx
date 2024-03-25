@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Pagination from "../../common/Pagination";
-// import Properties from "./Properties";
+import Properties from "./Properties";
 
 const WishlistTable = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -40,7 +40,7 @@ const WishlistTable = () => {
         <div className="tabs__content pt-30 js-tabs-content">
           <div className="tabs__pane -tab-item-1 is-tab-el-active">
             <div className="row y-gap-20">
-              {/* <Properties /> */}
+              <Properties />
             </div>
           </div>
         </div>
